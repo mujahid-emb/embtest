@@ -1,0 +1,22 @@
+{
+    "name": "emb/test",
+    "description": "Test Module",
+    "require": {
+        "php": "~7.0.4",
+        "magento/module-config": "100.0.*",
+        "magento/module-store": "100.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Emb\\Test\\": ""
+        }
+    }
+}
