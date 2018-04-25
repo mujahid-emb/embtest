@@ -11,6 +11,13 @@
     "license": [
         "proprietary"
     ],
+    "repositories": [
+	{
+        "type": "composer",
+        "url": "https://github.com/mujahid-emb/embtest.git"
+    }
+	],
+
     "autoload": {
         "files": [
             "registration.php"
